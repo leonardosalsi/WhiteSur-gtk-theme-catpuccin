@@ -35,7 +35,7 @@
        id="selected_bg_color"
        inkscape:swatch="solid">
       <stop
-         stop-color="#0860f2"
+         stop-color="#464a5a"
          offset="0"
          id="stop2" />
     </linearGradient>
@@ -446,7 +446,7 @@
      rx="0"
      ry="0"
      color="#000000"
-     fill="#333333"
+     fill="#303446"
      id="rect151" />
   <g
      id="button"
@@ -573,7 +573,7 @@
        y="-279.64"
        width="26"
        height="24"
-       fill="#333333"
+       fill="#303446"
        id="rect189" />
     <rect
        x="-2"
@@ -582,7 +582,7 @@
        height="22"
        rx="2.5"
        ry="2.5"
-       fill="#242424"
+       fill="#232634"
        id="rect191" />
     <rect
        x="-2.5"
@@ -603,7 +603,7 @@
        y="-279.64"
        width="26"
        height="24"
-       fill="#333333"
+       fill="#303446"
        id="rect196" />
     <rect
        x="66"
@@ -637,7 +637,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect203" />
     <rect
        x="-2"
@@ -646,7 +646,7 @@
        height="22"
        rx="3"
        ry="3"
-       fill="#242424"
+       fill="#232634"
        id="rect205" />
     <rect
        x="-2.5"
@@ -678,7 +678,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect212" />
     <rect
        x="66"
@@ -720,7 +720,7 @@
        height="22"
        rx="3"
        ry="3"
-       fill="#242424"
+       fill="#232634"
        id="rect221" />
     <rect
        x="-2.5"
@@ -875,7 +875,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect270" />
     <rect
        transform="scale(-1,1)"
@@ -885,7 +885,7 @@
        height="22"
        rx="3"
        ry="3"
-       fill="#242424"
+       fill="#232634"
        id="rect272" />
     <rect
        x="-2.5"
@@ -919,7 +919,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect279" />
     <rect
        x="66"
@@ -963,7 +963,7 @@
        height="22"
        rx="3"
        ry="3"
-       fill="#242424"
+       fill="#232634"
        id="rect288" />
     <rect
        x="-2.5"
@@ -997,7 +997,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect295" />
     <rect
        x="66"
@@ -1430,7 +1430,7 @@
        height="9"
        rx=".99998"
        ry="1"
-       fill="#242424"
+       fill="#232634"
        id="rect405" />
     <rect
        x="451"
@@ -1461,7 +1461,7 @@
        height="9"
        rx=".99997"
        ry="1"
-       fill="#242424"
+       fill="#232634"
        id="rect412" />
     <rect
        x="437"
@@ -1663,7 +1663,7 @@
      y="6.5"
      width="9"
      height="9"
-     fill="#242424"
+     fill="#232634"
      stroke="#4c4c4c" />
   <g
      id="tab-top-active"
@@ -1683,7 +1683,7 @@
        height="31"
        rx="1.3878e-16"
        ry="1.3878e-16"
-       fill="#242424"
+       fill="#232634"
        stroke-width="0"
        id="rect467" />
   </g>
@@ -1705,7 +1705,7 @@
        height="31"
        rx="1.3878e-16"
        ry="1.3878e-16"
-       fill="#242424"
+       fill="#232634"
        stroke-width="0"
        id="rect472" />
   </g>
@@ -1727,7 +1727,7 @@
        height="31"
        rx="1.3878e-16"
        ry="1.3878e-16"
-       fill="#242424"
+       fill="#232634"
        stroke-width="0"
        id="rect477" />
   </g>
@@ -1749,7 +1749,7 @@
        height="31"
        rx="1.3878e-16"
        ry="1.3878e-16"
-       fill="#242424"
+       fill="#232634"
        stroke-width="0"
        id="rect482" />
   </g>
@@ -1769,7 +1769,7 @@
        y="19"
        width="2"
        height="2"
-       fill="#242424"
+       fill="#232634"
        id="rect487" />
   </g>
   <g
@@ -1788,7 +1788,7 @@
        y="19"
        width="2"
        height="2"
-       fill="#242424"
+       fill="#232634"
        id="rect492" />
   </g>
   <rect
@@ -1809,7 +1809,7 @@
        y="111"
        width="24"
        height="32"
-       fill="#333333"
+       fill="#303446"
        id="rect496" />
     <rect
        x="437"
@@ -1827,7 +1827,7 @@
        y="-87.638"
        width="10"
        height="28"
-       fill="#242424"
+       fill="#232634"
        id="rect501" />
     <rect
        x="419"
@@ -2081,12 +2081,12 @@
      transform="translate(6,315.64)">
     <path
        d="m-4-280.64v26h28v-26h-27zm2 2h24v22h-24z"
-       fill="#333333"
+       fill="#303446"
        id="path569" />
     <path
        transform="translate(-113,-345.64)"
        d="m110 66v24h26v-24zm3.5 1h19c1.385 0 2.5 1.115 2.5 2.5v17c0 1.385-1.115 2.5-2.5 2.5h-19c-1.385 0-2.5-1.115-2.5-2.5v-17c0-1.385 1.115-2.5 2.5-2.5z"
-       fill="#333333"
+       fill="#303446"
        id="path571" />
     <rect
        x="-2.5"
@@ -2107,7 +2107,7 @@
      height="18"
      rx="2.7756e-17"
      ry="2.7756e-17"
-     fill="#242424" />
+     fill="#232634" />
   <rect
      id="entry-background-disabled"
      x="87"
@@ -2124,7 +2124,7 @@
     <path
        transform="translate(40,-428.64)"
        d="m-43 149v24h26v-24zm3 1h18c1.108 0 2 0.892 2 2v18c0 1.108-0.892 2-2 2h-18c-1.108 0-2-0.892-2-2v-18c0-1.108 0.892-2 2-2z"
-       fill="#333333"
+       fill="#303446"
        id="path578" />
     <rect
        x="-2.5"
@@ -2152,7 +2152,7 @@
     <path
        transform="translate(40,-428.64)"
        d="m-43 149v24h26v-24zm3 1h18c1.108 0 2 0.892 2 2v18c0 1.108-0.892 2-2 2h-18c-1.108 0-2-0.892-2-2v-18c0-1.108 0.892-2 2-2z"
-       fill="#333333"
+       fill="#303446"
        id="path585" />
     <rect
        x="-2.5"
@@ -2181,7 +2181,7 @@
        y="-172.64"
        width="24"
        height="32"
-       fill="#373737"
+       fill="#303446"
        id="rect592" />
     <rect
        x="423"
@@ -2198,7 +2198,7 @@
      y="243.5"
      width="9"
      height="9"
-     fill="#333333"
+     fill="#303446"
      stroke="#4c4c4c" />
   <g
      id="line-v"
@@ -2262,7 +2262,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#242424"
+       fill="#232634"
        id="rect610" />
     <rect
        x="-2.5"
@@ -2281,7 +2281,7 @@
        height="22"
        rx="4"
        ry="4"
-       fill="#242424"
+       fill="#232634"
        id="rect614" />
   </g>
   <g
@@ -2294,7 +2294,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#242424"
+       fill="#232634"
        id="rect617" />
     <rect
        x="66"
@@ -2327,7 +2327,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect624" />
     <rect
        x="-2.5"
@@ -2346,7 +2346,7 @@
        height="22"
        rx="4"
        ry="4"
-       fill="#242424"
+       fill="#232634"
        id="rect628" />
   </g>
   <g
@@ -2359,7 +2359,7 @@
        height="24"
        rx="0"
        ry="0"
-       fill="#333333"
+       fill="#303446"
        id="rect631" />
     <rect
        x="66"

@@ -5,7 +5,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
   for type in '' '-nord'; do
     case "$theme" in
       '')
-        theme_color='#0860F2'
+        theme_color='#464a5a'
         ;;
       -blue)
         theme_color='#2E7CF7'
@@ -75,10 +75,10 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
     if [[ "$type" != '' ]]; then
       rm -rf "assets${color}${theme}${type}.svg"
       cp -rf "assets${color}.svg" "assets${color}${theme}${type}.svg"
-      sed -i "s/#0860F2/${theme_color}/g" "assets${color}${theme}${type}.svg"
+      sed -i "s/#464a5a/${theme_color}/g" "assets${color}${theme}${type}.svg"
       if [[ "$color" == '-Dark' ]]; then
-        sed -i "s/#333333/${bg_color}/g" "assets${color}${theme}${type}.svg"
-        sed -i "s/#242424/${base_color}/g" "assets${color}${theme}${type}.svg"
+        sed -i "s/#303446/${bg_color}/g" "assets${color}${theme}${type}.svg"
+        sed -i "s/#232634/${base_color}/g" "assets${color}${theme}${type}.svg"
       else
         sed -i "s/#f5f5f5/${bg_color}/g" "assets${color}${theme}${type}.svg"
         sed -i "s/#ffffff/${base_color}/g" "assets${color}${theme}${type}.svg"
@@ -86,7 +86,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
     elif [[ "$theme" != '' ]]; then
       rm -rf "assets${color}${theme}.svg"
       cp -rf "assets${color}.svg" "assets${color}${theme}.svg"
-      sed -i "s/#0860F2/${theme_color}/g" "assets${color}${theme}.svg"
+      sed -i "s/#464a5a/${theme_color}/g" "assets${color}${theme}.svg"
     fi
   done
 done

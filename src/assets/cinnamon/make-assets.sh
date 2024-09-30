@@ -4,7 +4,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
   for type in '' '-nord'; do
     case "$theme" in
       '')
-        theme_color='#0860F2'
+        theme_color='#464a5a'
         ;;
       -blue)
         theme_color='#2E7CF7'
@@ -67,11 +67,11 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
     if [[ "$type" != '' ]]; then
       rm -rf "theme${theme}${type}"
       cp -rf "theme" "theme${theme}${type}"
-      sed -i "s/#0860f2/${theme_color}/g" "theme${theme}${type}"/*.svg
+      sed -i "s/#464a5a/${theme_color}/g" "theme${theme}${type}"/*.svg
     elif [[ "$theme" != '' ]]; then
       rm -rf "theme${theme}"
       cp -rf "theme" "theme${theme}"
-      sed -i "s/#0860f2/${theme_color}/g" "theme${theme}"/*.svg
+      sed -i "s/#464a5a/${theme_color}/g" "theme${theme}"/*.svg
     fi
   done
 done

@@ -23,10 +23,10 @@
 @import 'colors-palette';
 
 // Base colors
-$base_color:                        if($variant == 'light', #ffffff, if($darker == 'true', #1f1f1f, #242424));
+$base_color:                        if($variant == 'light', #ffffff, if($darker == 'true', #1f1f1f, #232634));
 $text_color:                        if($variant == 'light', #363636, #dadada);
-$bg_color:                          if($variant == 'light', #f5f5f5, if($darker == 'true', #282828, #333333));
-$fg_color:                          if($variant == 'light', #242424, #dedede);
+$bg_color:                          if($variant == 'light', #f5f5f5, if($darker == 'true', #282828, #303446));
+$fg_color:                          if($variant == 'light', #232634, #dedede);
 $alt_fg_color:                      if($variant == 'light', #424242, #afafaf);
 $hint_fg_color:                     if($variant == 'light', #565656, #999999);
 
@@ -110,7 +110,7 @@ $alt_dark_bg_color:                 rgba(black, 0.3);
 
 // for gnome-shell keyboard
 $solid_bg_color:                    if($variant == 'light', #eeeeee, #555555);
-$alt_solid_bg_color:                if($variant == 'light', #c0c0c0, #242424);
+$alt_solid_bg_color:                if($variant == 'light', #c0c0c0, #232634);
 
 @if $colorscheme == 'nord' {
   $solid_bg_color:                  if($variant == 'light', #eaecf0, #464f62);
@@ -133,8 +133,8 @@ $progress_color:                    $selected_bg_color;
 $drop_target_color:                 if($colorscheme == 'nord', $nord_color_orange, $theme_color_orange);
 
 // Headerbar colors
-$header_bg:                         if($variant == 'light', #ffffff, if($darker == 'true', #1e1e1e, #373737));
-$header_highlight:                  if($variant == 'dark', if($darker == 'true', #242424, #434343), #f5f5f5); // For metacity
+$header_bg:                         if($variant == 'light', #ffffff, if($darker == 'true', #1e1e1e, #303446));
+$header_highlight:                  if($variant == 'dark', if($darker == 'true', #232634, #434343), #f5f5f5); // For metacity
 $header_fg:                         if($variant == 'light', #575757, #FDFDFD);
 
 @if $colorscheme == 'nord' {
@@ -158,7 +158,7 @@ $opacity: 0.96;
     @if $colorscheme == 'nord' {
       $dark_sidebar_bg:               rgba(if($darker == 'true', #22262e, #2b303b), $opacity);
     } @else {
-      $dark_sidebar_bg:               rgba(if($darker == 'true', #282828, #333333), $opacity);
+      $dark_sidebar_bg:               rgba(if($darker == 'true', #282828, #303446), $opacity);
     }
   }
 } @else {
@@ -168,7 +168,7 @@ $opacity: 0.96;
     @if $colorscheme == 'nord' {
       $dark_sidebar_bg:               if($darker == 'true', #22262e, #2b303b);
     } @else {
-      $dark_sidebar_bg:               if($darker == 'true', #282828, #333333);
+      $dark_sidebar_bg:               if($darker == 'true', #282828, #303446);
     }
   }
 }

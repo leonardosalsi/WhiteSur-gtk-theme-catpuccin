@@ -49,7 +49,7 @@
        id="selected_bg_color"
        inkscape:swatch="solid">
       <stop
-         stop-color="#0860f2"
+         stop-color="#464a5a"
          offset="0"
          id="stop2" />
     </linearGradient>
@@ -2263,7 +2263,7 @@
        y="-172.64"
        width="24"
        height="32"
-       fill="#373737"
+       fill="#303446"
        id="rect592"
        style="fill:#2f3541;fill-opacity:1" />
     <rect
